@@ -1,0 +1,16 @@
+#
+../
+../assets/css/downloads.css
+../assets/css/fa-minimal.css
+../assets/js/downloads.js
+../assets/vendor/fonts/fonts.css
+/assets/favicon/apple-touch-icon.png
+/assets/favicon/favicon-192x192.png
+/assets/favicon/favicon-512x512.png
+/assets/favicon/favicon-96x96.png
+/assets/favicon/favicon.ico
+/assets/js/templating.js
+/download/gsi
+https://api.github.com
+https://projectinfinity-x.com
+https://raw.githubusercontent.com

@@ -1,0 +1,11 @@
+#
+../
+../assets/css/downloads.css
+../assets/css/fa-minimal.css
+../assets/js/downloads.js
+../assets/vendor/fonts/fonts.css
+/assets/js/templating.js
+/download/gsi
+https://api.github.com
+https://projectinfinity-x.com
+https://raw.githubusercontent.com
