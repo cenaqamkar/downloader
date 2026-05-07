@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity X</title>
+  <meta name="description" content="Infinity X is an AOSP custom ROM that brings refined performance, stunning visuals and endless customization to your Android device." />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/favicon-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon/favicon-512x512.png">
+        <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  
+  <!-- Critical above-the-fold CSS inlined to avoid FOUC while keeping full stylesheet async -->
+  <link rel="preload" href="assets/css/critical.css" as="style">
+  <link rel="stylesheet" href="assets/css/critical.css">
+  
+  <link rel="preload" as="font" type="font/woff2" href="assets/vendor/fonts/roboto-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/vendor/fonts/google-sans-700.woff2" crossorigin fetchpriority="high">
+  
+  <link rel="preload" as="style" href="assets/css/fa-minimal.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/fa-minimal.css"></noscript>
+  
+  <link rel="preload" as="style" href="assets/vendor/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/vendor/fonts/fonts.css"></noscript>
+  
+  <link rel="preload" as="style" href="assets/vendor/swiper/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css"></noscript>
+  <link rel="preload" as="style" href="assets/css/main.css" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
+  <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+  <link rel="preload" as="image" href="assets/images/ss-1.webp"/>
+</head>
+
+<body>
+    <!-- Shared Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="sparkles-container" id="sparkles"></div>
+        <div class="droplets-container" id="droplets"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-heading" style="contain:layout" fetchpriority="high">Experience <span class="limitless-color-shift">Limitless Possibilities</span> with Android Reimagined</h1>
+                <p>Project Infinity X is an AOSP custom ROM that brings refined performance, stunning visuals and endless customization to your Android device. Built on stability and designed for enthusiasts.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download" style="margin-right:8px;vertical-align:middle"></i>
+                        Download Now
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-star" style="margin-right:8px;vertical-align:middle"></i>
+                        Explore Features
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="heading-color-shift">Blazing Features</h2>
+                <p>Unlock the full potential of Android with our cutting-edge features designed for power users and enthusiasts.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Refined Performance</h3>
+                    <p>Optimized SystemUI tweaks that aims to deliver better performance than your stock OEM.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Infinite Customization</h3>
+                    <p>Complete control over every aspect of your UI with our powerful theme engine and customization options.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Enhanced Security</h3>
+                    <p>Designed to maintain compatibility with security‑sensitive apps and device integrity checks, while prioritizing user security and platform policies.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Smart Features</h3>
+                    <p>Focused optimizations, adaptive battery, and intelligent memory management for a seamless experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Regular Updates</h3>
+                    <p>Frequent OTA updates with new features, improvements, and the latest Android security patches.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Active Community</h3>
+                    <p>Join thousands of users in our vibrant community forums and Telegram groups for support and discussions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="heading-color-shift">Screenshots</h2>
+                <p>Experience the stunning visuals of Project Infinity X on your device</p>
+            </div>
+            <div class="screenshots-slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Screenshots will be loaded dynamically -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="swipe-hint">
+                <i class="fas fa-arrows-alt-h" style="margin-right:8px;vertical-align:middle"></i>
+                Swipe to view more screenshots
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="heading-color-shift">Download Now</h2>
+                <p>Get your hands on Project Infinity X to join the list of our pleased users, some of whose feedback you can see below...</p>
+            </div>
+            <div class="download-content">
+                <div class="feedback-cards">
+                    <div class="feedback-card">
+                        <div class="rating">★★★★★</div>
+                        <div class="feedback-text">"Amazing ROM! The endless customizations gave my Pixel a fresh feel! Cheers to the developers."</div>
+                        <div class="feedback-author">- Sebastiana Carrington</div>
+                    </div>
+                    <div class="feedback-card">
+                        <div class="rating">★★★★★</div>
+                        <div class="feedback-text">"Best ROM I've ever used. Everything works perfectly, including banking apps. The UI is beautiful and responsive."</div>
+                        <div class="feedback-author">- Aditya Srivastava</div>
+                    </div>
+                    <div class="feedback-card">
+                        <div class="rating">★★★★★</div>
+                        <div class="feedback-text">" I like the blend of customizations, features and the maintained Pixel touch. Also regular updates and great community support!"</div>
+                        <div class="feedback-author">- Youssef Saleh</div>
+                    </div>
+                </div>
+                <div class="download-cta">
+                    <a href="https://projectinfinity-x.com/downloads" class="btn btn-primary">
+                        <i class="fas fa-download" style="margin-right:8px;vertical-align:middle"></i>
+                        Download ROM
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer-placeholder"></footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="/assets/js/templating.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#download
+#features
+/assets/js/templating.js
+assets/css/critical.css
+assets/css/fa-minimal.css
+assets/css/main.css
+assets/js/main.js
+assets/vendor/fonts/fonts.css
+assets/vendor/fonts/google-sans-700.woff2
+assets/vendor/fonts/roboto-400.woff2
+assets/vendor/swiper/swiper-bundle.min.css
+https://projectinfinity-x.com/downloads
